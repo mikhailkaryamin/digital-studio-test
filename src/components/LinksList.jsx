@@ -8,6 +8,11 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  > * {
+    margin-bottom: 10px;
+  :last-child{
+    margin-bottom: 0;
+  }
 `;
 
 const STYLE_LINK = `
