@@ -1,0 +1,31 @@
+{
+  "extends": ["htmlacademy/es6", "plugin:react/recommended"],
+  "plugins": ["react"],
+  "parserOptions":{
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "rules": {
+    "curly": "error",
+    "quotes": ["error", "double", {
+      "allowTemplateLiterals": true
+      }],
+    "no-use-before-define": "off",
+    "object-curly-spacing": ["error", "always"],
+    "no-shadow": "off",
+  },
+
+  "overrides": [
+    {
+      "files": ["**/*.js?(x)"]
+    }
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
