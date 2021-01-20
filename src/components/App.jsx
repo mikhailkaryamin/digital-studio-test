@@ -27,11 +27,11 @@ const Container = styled.div`
   position: relative;
   display: flex;
   justify-content: space-between;
-  width: 100vw;
-  height: 100vh;
+  width: 1000px;
+  margin: 0 auto;
   padding-top: 50px;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-right: 10px;
+  padding-left: 10px;
 `;
 
 const ContainerCenter = styled.div`
