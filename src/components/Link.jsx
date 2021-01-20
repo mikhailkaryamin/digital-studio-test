@@ -40,7 +40,7 @@ const Link = ({ link, title, addStyle, id, onRemoveLink }) => {
   return (
     <Container addStyle={addStyle}>
       <Title>{title}</Title>
-      <LinkUrl href={link}>link</LinkUrl>
+      <LinkUrl href={link}>{link}</LinkUrl>
       <Button title={SettingButton.title} addStyle={SettingButton.style} onClick={() => onRemoveLink(id)}/>
     </Container>
   );
